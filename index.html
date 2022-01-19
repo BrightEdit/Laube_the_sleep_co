@@ -3,8 +3,10 @@
 <!-- This is the head of our html where we add external resources and metadata. it will not be displayed ion screen -->
 <head>
     <title>Hello World</title>
+
     <!-- This is our grid stylesheet -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
+
     <!-- This is our google fonts -->
 
     <!-- This is our font awesome icons -->
@@ -18,53 +20,92 @@
 <body>
     
     <!----------------------------------------------------------------- Header Banner ---------------------------->
-    <header>
+    <header class="padded grid">
+        <div class="col-12-middle">
         <h3>sleep like a baby</h3>
         <h1>the ultimate mattress solution</h1>
+        <div>
     </header>
 
     <!------------------------------------------------------------------ Gallery Section ---------------------------->
-    <section>
-        <div>
+    <section class="grid">
+        <div class="padded col-6">
             <h2>built to last a lifetime</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum cupiditate totam quaerat, non laborum laboriosam rerum? Ab nihil dolores ipsa nesciunt, sunt aut illum sit enim id blanditiis similique cupiditate?</p>
         </div>
-        <div class="bg-image">
+        <div class="bg-image col-6">
             <!-- background image bed -->
         </div>
-        <div class="bg-image">
+        <div class="bg-image col-6">
             <!-- background image pug sleeping -->
         </div>
-        <div>
+        <div class="padded col-6">
             <h2>so soft you'll melt</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima libero corporis velit impedit necessitatibus doloribus aperiam nostrum quia, autem quis perferendis sint placeat quae nulla aliquam natus est, ab tempora.</p>
         </div>
     </section>
 
 
-<!----------------------------------------------------------------Features Icon Grid----------------------------->
+<!---------------------------------------------------------------- Features Icon Grid ----------------------------->
 
-    <section>
-        <div>
+    <section class="padded grid bg-dark">
+        <div class="padded-sm col-12">
             <h2>features you will love</h2>
         </div>
-        <div>
-            <i><i class="fas fa-cloud"></i></i>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita laboriosam, voluptatem aperiam, nulla corrupti reiciendis minima accusamus, impedit eaque dolorum dignissimos quos vero! Facere dolorum quam vero repellat nemo ipsa.</p>
-        </div>
-        <div>
+        <div class="padded-sm col-3">
             <i class="fas fa-cloud"></i></i>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita laboriosam, voluptatem aperiam, nulla corrupti reiciendis minima accusamus, impedit eaque dolorum dignissimos quos vero! Facere dolorum quam vero repellat nemo ipsa.</p>
         </div>
-        <div>
+        <div class="padded-sm col-3">
             <i class="fas fa-cloud"></i></i>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita laboriosam, voluptatem aperiam, nulla corrupti reiciendis minima accusamus, impedit eaque dolorum dignissimos quos vero! Facere dolorum quam vero repellat nemo ipsa.</p>
         </div>
-        <div>
+        <div class="padded-sm col-3">
+            <i class="fas fa-cloud"></i></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita laboriosam, voluptatem aperiam, nulla corrupti reiciendis minima accusamus, impedit eaque dolorum dignissimos quos vero! Facere dolorum quam vero repellat nemo ipsa.</p>
+        </div>
+        <div class="padded-sm col-3">
             <i class="fas fa-cloud"></i></i>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita laboriosam, voluptatem aperiam, nulla corrupti reiciendis minima accusamus, impedit eaque dolorum dignissimos quos vero! Facere dolorum quam vero repellat nemo ipsa.</p>
         </div>
     </section>
+
+    <!------------------------------------------------------------ Image Banner ------------------------>
+
+    <section class="padded">
+        <h3>never underestimate the power of a good nights sleep</h3>
+    </section>
+
+    <!------------------------------------------------------ Testimonial Section ------------------------>
+
+    <section class="padded grid">
+        <div class="col-1">
+            <span>"</span>
+        </div>
+        <div class="col-10">
+            <p>I've never experienced sleep like this. Omg I really love this mattress I want to buy one for every member of my family</p>
+            <p>- A very happy customer</p>
+        </div>
+        <div class="col-1">
+            <span>"</span>
+        </div>
+    </section>
+
+    <!------------------------------------------------------ Footer ------------------------>
+    <footer class="padded grid bg-dark">
+        <div class="col-4">
+            <h2>Let's Connect</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quae! Aliquam, perferendis aspernatur! Maxime, recusandae? Assumenda dolor repellendus unde earum quia consequatur explicabo! Consequuntur mollitia obcaecati a qui culpa in.</p>
+        </div>
+        <div class="col-6">
+            <p>Call: 0455 666 999</p>
+            <p>Email: hello@thesleepco.co</p>
+            <p>Store: 55 Main St, Chicago</p>
+            <p>Instagram: @thesleepco</p>
+
+        </div>
+    </footer>
+
 
 </body>
 </html>
