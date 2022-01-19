@@ -3,11 +3,20 @@
     margin: 0;
     box-sizing: border-box;
 }
+/*  Temporary styles for structural html  */
 
-h1 {
-    color: red;
-    font-size: 4rem;
-    padding: 5%;
-    border: 2px solid pink;
-    text-align: center;
+* {
+    padding: 0.5rem;
+    border: 1px solid rgb( 225 225 225);
+}
+
+body { border: none;}
+html { border: none;}
+
+/* image styles */
+
+.bg-image {
+    background-image: url('/images/the-sleep-co-original-1-.jpg');
+    background-size: cover;
+    min-height: 10rem;
 }
